@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7094b2b4-86c5-4259-b438-c12a855800fe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.vscode/extensions/Coding.code-workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.vscode/extensions/ms-vscode.cpptools-1.14.3@win32-x64.vsix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C++/Hello World.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/3a.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/3b.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/Questions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/output/1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/output/2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/output/3a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/output/3b.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/output/4.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Practice/output/5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/Array.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/Declare.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/Do_While.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/Introduction_to_C.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/Introduction_to_C.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/assignment2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/assignment2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/else_if.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/hello_world.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/hello_world.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem1 C language/Sem 1/string.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/10_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/11.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/13.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/14_1_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/14_1_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/14_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/14_3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/14_5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/15.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/16.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/1_1a.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/1_1b.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/1_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/1_3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/1_4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/1_5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/1_6.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/6_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/6_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/6_3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/6_4_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/6_4_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/6_5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/7.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/9_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/9_3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/Index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/10_1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/11.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/13.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/14_1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/14_2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/14_3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/14_5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/15.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/1_1a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/1_1b.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/1_2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/1_3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/1_4.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/1_5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/1_6.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/4.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/6_2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/7.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/8.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../C/Sem2C/output/9_1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML_CSS/Sem2_HTML_CSS/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML_CSS/Sem2_HTML_CSS/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML_CSS/Sem2_HTML_CSS/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML_CSS/Sem2_HTML_CSS/4css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML_CSS/Sem2_HTML_CSS/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML_CSS/Sem2_HTML_CSS/6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML_CSS/Sem2_HTML_CSS/7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HTML_CSS/Sem2_HTML_CSS/Questions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSript/Sem2/Questions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prompt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL/Cheat-Sheet3 (2).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL/SQL.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SQL/maxresdefault.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OKyrXlbjJzFKlmzh42NpGE5G9B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Coding/Python&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7094b2b4-86c5-4259-b438-c12a855800fe" name="Changes" comment="" />
+      <created>1681323768983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681323768983</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
