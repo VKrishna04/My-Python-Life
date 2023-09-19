@@ -1,3 +1,5 @@
+# Getting all the paths to make jupyter notebook for 100 days of code from all the notes.
+
 import os
 
 def get_md_file_paths(directory):
