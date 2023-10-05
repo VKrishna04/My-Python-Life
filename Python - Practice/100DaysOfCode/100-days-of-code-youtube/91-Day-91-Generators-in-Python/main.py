@@ -1,7 +1,7 @@
 def my_generator():
-    for i in range(50000000):
-      # Complex computations
-      yield i
+  for i in range(50000000):
+  # Complex computations
+  yield i
 
 gen = my_generator()
 # print(next(gen))

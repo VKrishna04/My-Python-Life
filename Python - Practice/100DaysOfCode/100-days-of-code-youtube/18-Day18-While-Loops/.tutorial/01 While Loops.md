@@ -27,10 +27,10 @@ We can even use the else statement with the while loop. Essentially what the els
 ```python 
 x = 5
 while (x > 0):
-    print(x)
-    x = x - 1
+  print(x)
+  x = x - 1
 else:
-    print('counter is 0')
+  print('counter is 0')
 ```
 ## Output:
 ```

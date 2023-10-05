@@ -6,6 +6,6 @@ os.chdir("/Users")
 print(os.getcwd())
 
 for folder in folders:
-    print(folder)
-    print(os.listdir(f"data/{folder}"))
-    
+  print(folder)
+  print(os.listdir(f"data/{folder}"))
+  

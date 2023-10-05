@@ -6,18 +6,18 @@ In Python, method overriding is a way to customize the behavior of a class based
 
 ```python
 class Shape:
-    def area(self):
-        pass
+  def area(self):
+  pass
 ```
 In this base class, the area method is defined, but does not have any implementation. If you want to create a derived class that represents a circle, you can override the area method and provide an implementation that calculates the area of a circle:
 
 ```python
 class Circle(Shape):
-    def __init__(self, radius):
-        self.radius = radius
+  def __init__(self, radius):
+  self.radius = radius
 
-    def area(self):
-        return 3.14 * self.radius * self.radius
+  def area(self):
+  return 3.14 * self.radius * self.radius
 ```
 In this example, the Circle class inherits from the Shape class, and overrides the area method. The new implementation of the area method calculates the area of a circle, based on its radius.
 
@@ -29,20 +29,20 @@ For example, consider the following base class:
 
 ```python
 class Shape:
-    def area(self):
-        print("Calculating area...")
+  def area(self):
+  print("Calculating area...")
 ```
 In this base class, the area method prints a message indicating that the area is being calculated. If you want to create a derived class that represents a circle, and you also want to print a message indicating the type of shape, you can use the super function to call the base class method, and add your own message:
 
 ```python
 class Circle(Shape):
-    def __init__(self, radius):
-        self.radius = radius
+  def __init__(self, radius):
+  self.radius = radius
 
-    def area(self):
-        print("Calculating area of a circle...")
-        super().area()
-        return 3.14 * self.radius * self.radius
+  def area(self):
+  print("Calculating area of a circle...")
+  super().area()
+  return 3.14 * self.radius * self.radius
 ```
 In this example, the Circle class overrides the area method, and calls the base class method using the super function. This allows you to extend the behavior of the base class method, while still maintaining its original behavior.
 

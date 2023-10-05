@@ -5,9 +5,9 @@ Tuples are immutable, hence if you want to add, remove or change tuple items, th
 ```python
 countries = ("Spain", "Italy", "India", "England", "Germany")
 temp = list(countries)
-temp.append("Russia")       #add item 
-temp.pop(3)                 #remove item
-temp[2] = "Finland"         #change item
+temp.append("Russia")   #add item 
+temp.pop(3)   #remove item
+temp[2] = "Finland"   #change item
 countries = tuple(temp)
 print(countries)
 ```

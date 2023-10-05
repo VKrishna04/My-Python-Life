@@ -4,7 +4,7 @@ Each item/element in a list has its own unique index. This index can be used to 
 #### Example:
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
-#          [0]      [1]     [2]      [3]      [4]
+#  [0]  [1]   [2]  [3]  [4]
  ```
 
 # Accessing list items
@@ -16,7 +16,7 @@ As we have seen that list items have index, as such we can access items using th
 #### Example:
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
-#          [0]      [1]     [2]      [3]      [4]
+#  [0]  [1]   [2]  [3]  [4]
 print(colors[2])
 print(colors[4])
 print(colors[0])
@@ -34,7 +34,7 @@ Similar to positive indexing, negative indexing is also used to access items, bu
 #### Example:
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
-#          [-5]    [-4]    [-3]     [-2]      [-1]
+#  [-5]  [-4]  [-3]   [-2]  [-1]
 print(colors[-1])
 print(colors[-3])
 print(colors[-5])
@@ -51,9 +51,9 @@ We can check if a given item is present in the list. This is done using the `in`
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
 if "Yellow" in colors:
-    print("Yellow is present.")
+  print("Yellow is present.")
 else:
-    print("Yellow is absent.")
+  print("Yellow is absent.")
   ```
 #### Output:
 
@@ -64,9 +64,9 @@ Yellow is present.
 ```python
 colors = ["Red", "Green", "Blue", "Yellow", "Green"]
 if "Orange" in colors:
-    print("Orange is present.")
+  print("Orange is present.")
 else:
-    print("Orange is absent.")
+  print("Orange is absent.")
 ```
 #### Output:
 ```

@@ -21,9 +21,9 @@ These arguments can be used inside the class to assign the values to the data me
 #### Example:
 ``` python
 class Details:
-    def __init__(self, animal, group):
-        self.animal = animal
-        self.group = group
+  def __init__(self, animal, group):
+  self.animal = animal
+  self.group = group
 
 obj1 = Details("Crab", "Crustaceans")
 print(obj1.animal, "belongs to the", obj1.group, "group.")
@@ -38,7 +38,7 @@ When the constructor doesn't accept any arguments from the object and has only o
 ```python
 class Details:
   def __init__(self):
-    print("animal Crab belongs to Crustaceans group")
+  print("animal Crab belongs to Crustaceans group")
 obj1=Details()
 ```
 #### Output:

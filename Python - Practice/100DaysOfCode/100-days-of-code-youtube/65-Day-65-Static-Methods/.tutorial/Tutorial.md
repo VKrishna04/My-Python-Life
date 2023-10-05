@@ -2,9 +2,9 @@ Static methods in Python are methods that belong to a class rather than an insta
 
 ```python
 class Math:
-    @staticmethod
-    def add(a, b):
-        return a + b
+  @staticmethod
+  def add(a, b):
+  return a + b
 
 result = Math.add(1, 2)
 print(result) # Output: 3

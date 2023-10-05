@@ -17,9 +17,9 @@ Execute the block of code inside else statement. After execution return to the c
 applePrice = 210
 budget = 200
 if (applePrice <= budget):
-    print("Alexa, add 1 kg Apples to the cart.")
+  print("Alexa, add 1 kg Apples to the cart.")
 else:
-    print("Alexa, do not add Apples to the cart.")
+  print("Alexa, do not add Apples to the cart.")
 ```
 ## Output:
 ```
