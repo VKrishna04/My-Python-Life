@@ -1,1 +1,0 @@
-er=int(input("\nYour answer: "))
