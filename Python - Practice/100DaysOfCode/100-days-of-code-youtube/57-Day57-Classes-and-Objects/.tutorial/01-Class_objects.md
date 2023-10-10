@@ -7,8 +7,8 @@ Let us now create a class using the class keyword.
  
 ```python
 class Details:
-    name = "Rohan"
-    age = 20
+  name = "Rohan"
+  age = 20
  ```
 
 ## Creating an Object:
@@ -25,8 +25,8 @@ Now we can print values:
 ### Example:
 ```python
 class Details:
-    name = "Rohan"
-    age = 20
+  name = "Rohan"
+  age = 20
 
 obj1 = Details()
 print(obj1.name)

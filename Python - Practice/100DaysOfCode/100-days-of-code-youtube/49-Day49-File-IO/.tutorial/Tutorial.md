@@ -62,7 +62,7 @@ Alternatively, you can use the with statement to automatically close the file af
 
 ```python
 with open('myfile.txt', 'r') as f:
-    # ... do something with the file
+  # ... do something with the file
 
 ```
 ## [Next Lesson>>](https://replit.com/@codewithharry/50-Day50-read-readlines-and-other-methods)

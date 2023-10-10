@@ -29,10 +29,10 @@ async def main():
   # await function3()
   # return 3
   L = await asyncio.gather(
-        function1(),
-        function2(),
-        function3(),
-    )
+  function1(),
+  function2(),
+  function3(),
+  )
   print(L)
   # task = asyncio.create_task(function1())
   # # await function1()

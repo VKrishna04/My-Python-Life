@@ -5,8 +5,8 @@ Generators in Python are special type of functions that allow you to create an i
 In Python, you can create a generator by using the `yield` statement in a function. The `yield` statement returns a value from the generator and suspends the execution of the function until the next value is requested. Here's an example:
 ```python
 def my_generator():
-    for i in range(5):
-        yield i
+  for i in range(5):
+  yield i
 
 gen = my_generator()
 print(next(gen))
@@ -28,7 +28,7 @@ Once you have created a generator, you can use it in a variety of ways, such as 
 ```python
 gen = my_generator()
 for i in gen:
-    print(i)
+  print(i)
 # Output:
 # 0
 # 1

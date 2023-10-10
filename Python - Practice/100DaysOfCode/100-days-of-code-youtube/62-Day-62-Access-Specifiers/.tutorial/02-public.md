@@ -3,10 +3,10 @@ All the variables and methods (member functions) in python are by default public
 ## Example:
 ```python
 class Student:
-    # constructor is defined
-    def __init__(self, age, name):
-        self.age = age               # public variable
-        self.name = name             # public variable
+  # constructor is defined
+  def __init__(self, age, name):
+  self.age = age   # public variable
+  self.name = name   # public variable
 
 obj = Student(21,"Harry")
 print(obj.age)

@@ -79,13 +79,13 @@ Python supports different types of loops, such as `for` loops and `while` loops:
 ```python
 # For loop
 for i in range(5):
-    print(i)
+  print(i)
 
 # While loop
 count = 0
 while count < 5:
-    print(count)
-    count += 1
+  print(count)
+  count += 1
 ```
 
 **6. Conditional Statements**
@@ -96,11 +96,11 @@ Python uses `if`, `elif`, and `else` for conditional statements:
 x = 10
 
 if x > 5:
-    print("x is greater than 5")
+  print("x is greater than 5")
 elif x == 5:
-    print("x is equal to 5")
+  print("x is equal to 5")
 else:
-    print("x is less than 5")
+  print("x is less than 5")
 ```
 
 These are some basic Python code examples to get you started. Feel free to create new code cells in your Jupyter Notebook and experiment with these concepts. You can build upon these fundamentals to tackle more complex tasks and projects. If you have specific questions or need assistance with a particular coding task, please let me know!

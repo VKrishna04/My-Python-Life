@@ -23,7 +23,7 @@ Lambda functions can have multiple arguments, just like regular functions. Here 
 ```python
 # Function to calculate the product of two numbers
 def multiply(x, y):
-    return x * y
+  return x * y
 
 # Lambda function to calculate the product of two numbers
 lambda x, y: x * y

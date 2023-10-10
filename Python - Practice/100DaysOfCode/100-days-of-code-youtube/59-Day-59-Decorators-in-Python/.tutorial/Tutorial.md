@@ -5,13 +5,13 @@ A decorator is a function that takes another function as an argument and returns
 ```python
 @decorator_function
 def my_function():
-    pass
+  pass
 ```
 
 The @decorator_function notation is just a shorthand for the following code:
 ```python
 def my_function():
-    pass
+  pass
 my_function = decorator_function(my_function)
 ```
 Decorators are often used to add functionality to functions and methods, such as logging, memoization, and access control.
@@ -22,16 +22,16 @@ One common use of decorators is to add logging to a function. For example, you c
 import logging
 
 def log_function_call(func):
-    def decorated(*args, **kwargs):
-        logging.info(f"Calling {func.__name__} with args={args}, kwargs={kwargs}")
-        result = func(*args, **kwargs)
-        logging.info(f"{func.__name__} returned {result}")
-        return result
-    return decorated
+  def decorated(*args, **kwargs):
+  logging.info(f"Calling {func.__name__} with args={args}, kwargs={kwargs}")
+  result = func(*args, **kwargs)
+  logging.info(f"{func.__name__} returned {result}")
+  return result
+  return decorated
 
 @log_function_call
 def my_function(a, b):
-    return a + b
+  return a + b
 ```
 
 In this example, the log_function_call decorator takes a function as an argument and returns a new function that logs the function call before and after the original function is called.

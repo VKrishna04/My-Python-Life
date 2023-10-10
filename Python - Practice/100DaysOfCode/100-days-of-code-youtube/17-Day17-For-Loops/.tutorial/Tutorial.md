@@ -10,7 +10,7 @@ for loops can iterate over a sequence of iterable objects in python. Iterating o
 ```python 
 name = 'Abhishek'
 for i in name:
-    print(i, end=", ")
+  print(i, end=", ")
 ```
 ## Output:
 
@@ -22,7 +22,7 @@ A, b, h, i, s, h, e, k,
 ``` python 
 colors = ["Red", "Green", "Blue", "Yellow"]
 for x in colors:
-    print(x)
+  print(x)
 ```
 ## Output:
 
@@ -40,7 +40,7 @@ Here, we can use the range() function.
 ## Example:
 ```python
 for k in range(5):
-    print(k)
+  print(k)
 ```
 ## Output:
 
@@ -58,7 +58,7 @@ But we can also loop over a specific range.
 ## Example:
 ```python
 for k in range(4,9):
-    print(k)
+  print(k)
 ```
 ## Output:
 

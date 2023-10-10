@@ -6,23 +6,23 @@ The syntax we follow to make any variable protected is to write variable name fo
 ## Example:
 ```python
 class Student:
-    def __init__(self):
-        self._name = "Harry"
+  def __init__(self):
+  self._name = "Harry"
 
-    def _funName(self):      # protected method
-        return "CodeWithHarry"
+  def _funName(self):  # protected method
+  return "CodeWithHarry"
 
-class Subject(Student):       #inherited class
-    pass
+class Subject(Student):   #inherited class
+  pass
 
 obj = Student()
 obj1 = Subject()
 
 # calling by object of Student class
-print(obj._name)      
-print(obj._funName())     
+print(obj._name)  
+print(obj._funName())   
 # calling by object of Subject class
-print(obj1._name)    
+print(obj1._name)  
 print(obj1._funName()) 
 ```
 ## Output:
