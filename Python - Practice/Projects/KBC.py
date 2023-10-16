@@ -139,9 +139,9 @@ import time
 def querand(i):
   # the randomizer selects the question from the list of questions
   if i==3:
-  return random.choice(random.choice(questions))
+    return random.choice(random.choice(questions))
   else:
-  return random.choice(questions[i])
+    return random.choice(questions[i])
 
 # Set of all questions that have appeared once already
 pastque=set()
@@ -168,11 +168,11 @@ for i in range(0,17):
   # then will it come out of the loop and continue with the question 
 
   while True:
-  que=querand(level)
-  if tuple(que) in pastque :
-  continue
-  pastque.add(tuple(que))
-  break
+    que=querand(level)
+    if tuple(que) in pastque :
+      continue
+    pastque.add(tuple(que))
+      break
 
   print("Let's Start with question no.",i+1,"worth",index[i])
   # the question is printed after determining it is
@@ -204,15 +204,15 @@ for i in range(0,17):
   money=index[i]
   print("You have won Rs.",index[i],"and the timer is changed to 60 seconds\n")
   elif level==2:
-  # this is valid only if the 17th questions is answered correctly thus the loop will end naturally after this
-  print("You have won Rs.",index[i],"and timer is removed from now on.\n")
+    # this is valid only if the 17th questions is answered correctly thus the loop will end naturally after this
+    print("You have won Rs.",index[i],"and timer is removed from now on.\n")
   elif level==3:
-  print("You have won Rs.",index[i],"\n")
-  # if the answer is wrong
+    print("You have won Rs.",index[i],"\n")
+    # if the answer is wrong
   else:
-  print("Your answer is Wrong the correct answer is:",que[5],que[que[5]],"\n")
-  # the game ends
-  break
+    print("Your answer is Wrong the correct answer is:",que[5],que[que[5]],"\n")
+    # the game ends
+    break
   # the current money won is printed
   print("The correct answer is",que[5],que[que[5]],"\nCurrent Total amount earned Rs.",money,"\n")
   # print ("\n...",flush=True)
