@@ -17,11 +17,11 @@ Execute the block of code inside else statement if none of the expression evalua
 ```python
 num = 0
 if (num < 0):
-  print("Number is negative.")
+    print("Number is negative.")
 elif (num == 0):
-  print("Number is Zero.")
+    print("Number is Zero.")
 else:
-  print("Number is positive.")
+    print("Number is positive.")
 ```
 ## Output:
 ```

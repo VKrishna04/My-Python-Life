@@ -4,7 +4,7 @@ The enumerate function is a built-in function in Python that allows you to loop 
 # Loop over a list and print the index and value of each element
 fruits = ['apple', 'banana', 'mango']
 for index, fruit in enumerate(fruits):
-  print(index, fruit)
+    print(index, fruit)
 
 ```
 
@@ -25,7 +25,7 @@ By default, the enumerate function starts the index at 0, but you can specify a 
 # Loop over a list and print the index (starting at 1) and value of each element
 fruits = ['apple', 'banana', 'mango']
 for index, fruit in enumerate(fruits, start=1):
-  print(index, fruit)
+    print(index, fruit)
 
 ```
 
@@ -42,7 +42,7 @@ The enumerate function is often used when you need to loop over a sequence and p
 ```python
 fruits = ['apple', 'banana', 'mango']
 for index, fruit in enumerate(fruits):
-  print(f'{index+1}: {fruit}')
+    print(f'{index+1}: {fruit}')
 
 ```
 This will output:
@@ -59,7 +59,7 @@ In addition to lists, you can use the enumerate function with any other sequence
 # Loop over a tuple and print the index and value of each element
 colors = ('red', 'green', 'blue')
 for index, color in enumerate(colors):
-  print(index, color)
+    print(index, color)
 
 ```
 And here's an example with a string:
@@ -67,7 +67,7 @@ And here's an example with a string:
 # Loop over a string and print the index and value of each character
 s = 'hello'
 for index, c in enumerate(s):
-  print(index, c)
+    print(index, c)
 
 ```
 ## [Next Lesson>>](https://replit.com/@codewithharry/43-Day43-Virtual-Environment)

@@ -11,17 +11,17 @@ try….. except blocks are used in python to handle errors and exceptions. The c
  ## Syntax:
  ```python
  try:
-  #statements which could generate 
-  #exception
+      #statements which could generate 
+      #exception
 except:
-  #Soloution of generated exception
+      #Soloution of generated exception
 ```
 ## Example:
 ```python
 try:
-  num = int(input("Enter an integer: "))
+    num = int(input("Enter an integer: "))
 except ValueError:
-  print("Number entered is not an integer.")
+    print("Number entered is not an integer.")
  ```
 
 ## Output:

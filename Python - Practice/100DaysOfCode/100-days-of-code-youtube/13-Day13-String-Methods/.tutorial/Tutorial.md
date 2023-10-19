@@ -68,7 +68,7 @@ The split() method splits the given string at the specified instance and returns
 ### Example:
 ```python
 str2 = "Silver Spoon"
-print(str2.split(" "))  #Splits the string at the whitespace " ".
+print(str2.split(" "))      #Splits the string at the whitespace " ".
 ```
 ### Output:
 ```
@@ -103,7 +103,7 @@ print(str1.center(50))
 ```
 ### Output:
 ```
-  Welcome to the Console!!!
+            Welcome to the Console!!!
  ```
 
 We can also provide padding character. It will fill the rest of the fill characters provided by the user.
@@ -253,9 +253,9 @@ True
 The isspace() method returns True only and only if the string contains white spaces, else returns False.
 ### Example:
 ```python
-str1 = "  "   #using Spacebar
+str1 = "        "       #using Spacebar
 print(str1.isspace())
-str2 = "  "   #using Tab
+str2 = "        "       #using Tab
 print(str2.isspace())
 ```
 ### Output:

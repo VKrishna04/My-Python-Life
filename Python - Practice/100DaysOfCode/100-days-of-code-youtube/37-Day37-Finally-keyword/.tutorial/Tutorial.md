@@ -8,9 +8,9 @@ try:
 except:
    #solution of generated exception
 finally:
-  #block of code which is going to 
-  #execute in any situation
-  
+    #block of code which is going to 
+    #execute in any situation
+    
    
 ```
 The finally block is executed irrespective of the outcome of try……except…..else blocks\
@@ -18,13 +18,13 @@ One of the important use cases of finally block is in a function which returns a
 # Example:
 ```python
 try:
-  num = int(input("Enter an integer: "))
+    num = int(input("Enter an integer: "))
 except ValueError:
-  print("Number entered is not an integer.")
+    print("Number entered is not an integer.")
 else:
-  print("Integer Accepted.")
+    print("Integer Accepted.")
 finally:
-  print("This block is always executed.")
+    print("This block is always executed.")
  ```
 
 ## Output 1:

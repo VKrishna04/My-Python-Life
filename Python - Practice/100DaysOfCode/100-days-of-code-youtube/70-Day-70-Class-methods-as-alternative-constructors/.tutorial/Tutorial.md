@@ -8,22 +8,22 @@ A class method belongs to the class rather than to an instance of the class. One
 
 ```python
 class Person:
-  def __init__(self, name, age):
-  self.name = name
-  self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 ```
 
 But what if you want to create a Person object from a string that contains the person's name and age, separated by a comma? You can define a class method named "from_string" to do this:
 ```python
 class Person:
-  def __init__(self, name, age):
-  self.name = name
-  self.age = age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-  @classmethod
-  def from_string(cls, string):
-  name, age = string.split(',')
-  return cls(name, int(age))
+    @classmethod
+    def from_string(cls, string):
+        name, age = string.split(',')
+        return cls(name, int(age))
 ```
 Now you can create a Person object from a string like this:
 ```python 
@@ -33,21 +33,21 @@ person = Person.from_string("John Doe, 30")
 Another common use case for class methods as alternative constructors is when you want to create an object with a different set of default values than what is provided by the default constructor. For example, consider a class named "Rectangle" that has two attributes: "width" and "height". The default constructor for the class might look like this:
 ```python
 class Rectangle:
-  def __init__(self, width, height):
-  self.width = width
-  self.height = height
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
 ```
 But what if you want to create a Rectangle object with a default width of 10 and a default height of 5? You can define a class method named "square" to do this:
 ```python
 class Rectangle:
   def __init__(self, width, height):
-  self.width = width
-  self.height = height
+    self.width = width
+    self.height = height
 
   @classmethod
   def square(cls, size):
-  return cls(size, size)
+    return cls(size, size)
 ```
 Now you can create a square rectangle like this:
 

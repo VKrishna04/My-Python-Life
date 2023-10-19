@@ -30,10 +30,10 @@ Note: This method of specifying the start and end index to specify a part of a s
 ## Slicing Example:
 ```python
 pie = "ApplePie"
-print(pie[:5])  #Slicing from Start
-print(pie[5:])  #Slicing till End
-print(pie[2:6])   #Slicing in between
-print(pie[-8:])   #Slicing using negative index
+print(pie[:5])      #Slicing from Start
+print(pie[5:])      #Slicing till End
+print(pie[2:6])     #Slicing in between
+print(pie[-8:])     #Slicing using negative index
 ```
 ## Output:
 ```
@@ -48,7 +48,7 @@ Strings are arrays and arrays are iterable. Thus we can loop through strings.
 ```python
 alphabets = "ABCDE"
 for i in alphabets:
-  print(i)
+    print(i)
   ```
 ## Output:
 ```

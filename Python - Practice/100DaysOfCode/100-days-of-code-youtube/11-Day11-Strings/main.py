@@ -16,4 +16,4 @@ print(name[4])
 # print(name[5]) # Throws an error
 print("Lets use a for loop\n")
 for character in apple:
-  print(character)
+    print(character)

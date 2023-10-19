@@ -27,7 +27,7 @@ You can access items of set using a for loop.
 ```python
 info = {"Carla", 19, False, 5.9}
 for item in info:
-  print(item)
+    print(item)
   ```
 #### Output:
 ```

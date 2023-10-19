@@ -29,12 +29,12 @@ For example, if you want to overload the + operator to add two instances of a cu
 
 ```python
 class Point:
-  def __init__(self, x, y):
-  self.x = x
-  self.y = y
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
 
-  def __add__(self, other):
-  return Point(self.x + other.x, self.y + other.y)
+    def __add__(self, other):
+        return Point(self.x + other.x, self.y + other.y)
 ```
 It's important to note that operator overloading is not limited to the built-in operators, you can overload any user-defined operator as well.
 

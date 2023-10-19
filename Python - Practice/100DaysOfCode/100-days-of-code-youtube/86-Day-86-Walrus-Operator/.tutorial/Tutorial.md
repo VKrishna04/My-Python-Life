@@ -8,7 +8,7 @@ Here's an example of how you can use the Walrus Operator in a while loop:
 numbers = [1, 2, 3, 4, 5]
 
 while (n := len(numbers)) > 0:
-  print(numbers.pop())
+    print(numbers.pop())
 ```
 In this example, the length of the `numbers` list is assigned to the variable n using the Walrus Operator. The value of `n` is then used in the condition of the while loop, so that the loop will continue to execute until the `numbers` list is empty.
 
@@ -17,9 +17,9 @@ Another example of using the Walrus Operator in an if statement:
 names = ["John", "Jane", "Jim"]
 
 if (name := input("Enter a name: ")) in names:
-  print(f"Hello, {name}!")
+    print(f"Hello, {name}!")
 else:
-  print("Name not found.")
+    print("Name not found.")
 ```
 Here is another example 
 ```python
@@ -37,13 +37,13 @@ Here is another example
 # foods = list()
 # while True:
 #   food = input("What food do you like?: ")
-#   if food == "quit":
-#   break
+#       if food == "quit":
+#           break
 #   foods.append(food)
 
 foods = list()
 while (food := input("What food do you like?: ")) != "quit":
-  foods.append(food)
+    foods.append(food)
 ```
 In this example, the user input is assigned to the variable `name` using the Walrus Operator. The value of `name` is then used in the if statement to determine whether it is in the names list. If it is, the corresponding message is printed, otherwise, a different message is printed.
 

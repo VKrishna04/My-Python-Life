@@ -4,10 +4,10 @@ The readline() method reads a single line from the file. If we want to read mult
 ```python
 f = open('myfile.txt', 'r')
 while True:
-  line = f.readline()
-  if not line:
-  break
-  print(line)
+    line = f.readline()
+    if not line:
+        break
+    print(line)
 
 ```
 The readlines() method reads all the lines of the file and returns them as a list of strings.
@@ -29,7 +29,7 @@ Keep in mind that the writelines() method does not add newline characters betwee
 f = open('myfile.txt', 'w')
 lines = ['line 1', 'line 2', 'line 3']
 for line in lines:
-  f.write(line + '\n')
+    f.write(line + '\n')
 f.close()
 ```
 It is also a good practice to close the file after you are done with it.

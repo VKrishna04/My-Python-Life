@@ -8,13 +8,13 @@ Here's an example of how to use the super() keyword in a simple inheritance scen
 
 ```python
 class ParentClass:
-  def parent_method(self):
-  print("This is the parent method.")
+    def parent_method(self):
+        print("This is the parent method.")
 
 class ChildClass(ParentClass):
-  def child_method(self):
-  print("This is the child method.")
-  super().parent_method()
+    def child_method(self):
+        print("This is the child method.")
+        super().parent_method()
 
 child_object = ChildClass()
 child_object.child_method()
@@ -33,17 +33,17 @@ Here's an example:
 
 ```python
 class ParentClass1:
-  def parent_method(self):
-  print("This is the parent method of ParentClass1.")
+    def parent_method(self):
+        print("This is the parent method of ParentClass1.")
 
 class ParentClass2:
-  def parent_method(self):
-  print("This is the parent method of ParentClass2.")
+    def parent_method(self):
+        print("This is the parent method of ParentClass2.")
 
 class ChildClass(ParentClass1, ParentClass2):
-  def child_method(self):
-  print("This is the child method.")
-  super().parent_method()
+    def child_method(self):
+        print("This is the child method.")
+        super().parent_method()
 
 child_object = ChildClass()
 child_object.child_method()

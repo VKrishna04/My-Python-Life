@@ -11,7 +11,7 @@ We can provide a default value while creating a function. This way the function 
 Example:
 ```python
 def name(fname, mname = "Jhon", lname = "Whatson"):
-  print("Hello,", fname, mname, lname)
+    print("Hello,", fname, mname, lname)
 
 name("Amy")
 ```
@@ -26,7 +26,7 @@ We can provide arguments with key = value, this way the interpreter recognizes t
 Example:
 ```python
 def name(fname, mname, lname):
-  print("Hello,", fname, mname, lname)
+    print("Hello,", fname, mname, lname)
 
 name(mname = "Peter", lname = "Wesker", fname = "Jade")
 ```
@@ -41,7 +41,7 @@ In case we don’t pass the arguments with a key = value syntax, then it is nece
 Example 1: when number of arguments passed does not match to the actual function definition.
 ```python
 def name(fname, mname, lname):
-  print("Hello,", fname, mname, lname)
+    print("Hello,", fname, mname, lname)
 
 name("Peter", "Quill")
 ```
@@ -54,7 +54,7 @@ TypeError: name() missing 1 required positional argument: 'lname'
 Example 2: when number of arguments passed matches to the actual function definition.
 ```python
 def name(fname, mname, lname):
-  print("Hello,", fname, mname, lname)
+    print("Hello,", fname, mname, lname)
 
 name("Peter", "Ego", "Quill")
 ```
@@ -74,7 +74,7 @@ While creating a function, pass a * before the parameter name while defining the
 Example:
 ```python
 def name(*name):
-  print("Hello,", name[0], name[1], name[2])
+    print("Hello,", name[0], name[1], name[2])
 
 name("James", "Buchanan", "Barnes")
 ```
@@ -89,7 +89,7 @@ While creating a function, pass a * before the parameter name while defining the
 Example:
 ```python
 def name(**name):
-  print("Hello,", name["fname"], name["mname"], name["lname"])
+    print("Hello,", name["fname"], name["mname"], name["lname"])
 
 name(mname = "Buchanan", lname = "Barnes", fname = "James")
 ```
@@ -106,7 +106,7 @@ The return statement is used to return the value of the expression back to the c
 Example:
 ```python
 def name(fname, mname, lname):
-  return "Hello, " + fname + " " + mname + " " + lname
+    return "Hello, " + fname + " " + mname + " " + lname
 
 print(name("James", "Buchanan", "Barnes"))
  ```

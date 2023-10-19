@@ -4,7 +4,7 @@ Each item/element in a tuple has its own unique index. This index can be used to
 ### Example:
 ```python
 country = ("Spain", "Italy", "India",)
-#  [0]  [1]  [2]  
+#            [0]      [1]      [2]              
  ```
 
 ## Accessing tuple items:
@@ -16,7 +16,7 @@ As we have seen that tuple items have index, as such we can access items using t
 Example:
 ```python
 country = ("Spain", "Italy", "India",)
-#  [0]  [1]  [2]   
+#            [0]      [1]      [2]     
 print(country[0])
 print(country[1])
 print(country[2])
@@ -34,7 +34,7 @@ Similar to positive indexing, negative indexing is also used to access items, bu
 ### Example:
 ```python
 country = ("Spain", "Italy", "India", "England", "Germany")
-#  [0]  [1]  [2]   [3]  [4]
+#            [0]      [1]      [2]       [3]        [4]
 print(country[-1]) # Similar to print(country[len(country) - 1])
 print(country[-3])
 print(country[-4])
@@ -53,9 +53,9 @@ We can check if a given item is present in the tuple. This is done using the `in
 ```python
 country = ("Spain", "Italy", "India", "England", "Germany")
 if "Germany" in country:
-  print("Germany is present.")
+    print("Germany is present.")
 else:
-  print("Germany is absent.")
+    print("Germany is absent.")
   ```
 ### Output:
 ```
@@ -66,9 +66,9 @@ Germany is present.
 ```python
 country = ("Spain", "Italy", "India", "England", "Germany")
 if "Russia" in country:
-  print("Russia is present.")
+    print("Russia is present.")
 else:
-  print("Russia is absent.")
+    print("Russia is absent.")
   ```
 ### Output:
 ```
@@ -90,7 +90,7 @@ Note: jump Index is optional. We will see this in given examples.
 ### Example: Printing elements within a particular range:
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
-print(animals[3:7])   #using positive indexes
+print(animals[3:7])     #using positive indexes
 print(animals[-7:-2])   #using negative indexes
 ```
 ### Output:
@@ -106,8 +106,8 @@ Note: The element of the end index provided will not be included.
 ### Example: Printing all element from a given index till the end
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
-print(animals[4:])  #using positive indexes
-print(animals[-4:])   #using negative indexes
+print(animals[4:])      #using positive indexes
+print(animals[-4:])     #using negative indexes
 ```
 ### Output:
 ```
@@ -121,8 +121,8 @@ When no end index is provided, the interpreter prints all the values till the en
 ### Example: printing all elements from start to a given index
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
-print(animals[:6])  #using positive indexes
-print(animals[:-3])   #using negative indexes
+print(animals[:6])      #using positive indexes
+print(animals[:-3])     #using negative indexes
 ```
 ### Output:
 ```
@@ -136,7 +136,7 @@ When no start index is provided, the interpreter prints all the values from star
 ### Example: Print alternate values
 ```python
 animals = ("cat", "dog", "bat", "mouse", "pig", "horse", "donkey", "goat", "cow")
-print(animals[::2])   #using positive indexes
+print(animals[::2])     #using positive indexes
 print(animals[-8:-1:2]) #using negative indexes
 ```
 ### Output:

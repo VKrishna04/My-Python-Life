@@ -157,9 +157,9 @@ You can also check if an item exists in the set or not.
 ```python
 info = {"Carla", 19, False, 5.9}
 if "Carla" in info:
-  print("Carla is present.")
+    print("Carla is present.")
 else:
-  print("Carla is absent.")
+    print("Carla is absent.")
   ```
 #### Output:
 

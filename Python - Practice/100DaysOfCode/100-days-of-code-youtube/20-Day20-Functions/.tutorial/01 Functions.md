@@ -36,7 +36,7 @@ We call a function by giving the function name, followed by parameters (if any) 
 Example:
 ```python
 def name(fname, lname):
-  print("Hello,", fname, lname)
+    print("Hello,", fname, lname)
 
 name("Sam", "Wilson")
 ```

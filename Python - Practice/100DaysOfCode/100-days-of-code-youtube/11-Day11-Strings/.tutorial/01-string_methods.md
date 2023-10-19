@@ -43,7 +43,7 @@ print(name[1])
 We can loop through strings using a for loop like this: 
 ```python
 for character in name:
-  print(character)
+    print(character)
 ```
 
 Above code prints all the characters in the string name one by one!

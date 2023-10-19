@@ -6,15 +6,15 @@ In Python, there is no strict concept of "private" access modifiers like in some
 ## Example:
 ```python
 class Student: 
-  def __init__(self, age, name): 
-  self.__age = age  # An indication of private variable
-  
-  def __funName(self):  # An indication of private function
-  self.y = 34
-  print(self.y)
+    def __init__(self, age, name): 
+        self.__age = age      # An indication of private variable
+        
+        def __funName(self):  # An indication of private function
+            self.y = 34
+            print(self.y)
 
 class Subject(Student):
-  pass
+    pass
 
 obj = Student(21,"Harry")
 obj1 = Subject
@@ -41,9 +41,9 @@ Name mangling in Python is a technique used to protect class-private and supercl
 
 ```python
 class MyClass:
-  def __init__(self):
-  self._nonmangled_attribute = "I am a nonmangled attribute"
-  self.__mangled_attribute = "I am a mangled attribute"
+    def __init__(self):
+        self._nonmangled_attribute = "I am a nonmangled attribute"
+        self.__mangled_attribute = "I am a mangled attribute"
 
 my_object = MyClass()
 
