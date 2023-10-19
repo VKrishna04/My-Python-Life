@@ -27,21 +27,21 @@ By default, python provides the following built-in data types:
 
 
  - int: 3, -8, 0
- -    float: 7.349, -9.0, 0.0000001
+ -  float: 7.349, -9.0, 0.0000001
  -  complex: 6 + 2i 
 
  ## 2. Text data: str
-    
+  
 
 str: "Hello World!!!", "Python Programming"
 
 ## 3. Boolean data:
-    
+  
 
 Boolean data consists of values True or False.
 
 ## 4. Sequenced data: list, tuple
-    
+  
 
 **list:**  A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
 
@@ -78,7 +78,7 @@ Output:
 
 
 ## 5. Mapped data: dict
-    
+  
 
 **dict:** A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets.
 

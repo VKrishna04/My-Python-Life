@@ -3,12 +3,12 @@ Getters in Python are methods that are used to access the values of an object's 
 Here is an example of a simple class with a getter method:
 ```python
 class MyClass:
-    def __init__(self, value):
-        self._value = value
+  def __init__(self, value):
+  self._value = value
 
-    @property
-    def value(self):
-        return self._value
+  @property
+  def value(self):
+  return self._value
 ```
 In this example, the MyClass class has a single property, _value, which is initialized in the __init__ method. The value method is defined as a getter using the @property decorator, and is used to return the value of the _value property.
 
@@ -25,16 +25,16 @@ Here is an example of a class with both getter and setter:
 
 ```python
 class MyClass:
-    def __init__(self, value):
-        self._value = value
+  def __init__(self, value):
+  self._value = value
 
-    @property
-    def value(self):
-        return self._value
+  @property
+  def value(self):
+  return self._value
 
-    @value.setter
-    def value(self, new_value):
-        self._value = new_value
+  @value.setter
+  def value(self, new_value):
+  self._value = new_value
 ```
 We can use setter method like this:
 ```python

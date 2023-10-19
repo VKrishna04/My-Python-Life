@@ -25,9 +25,9 @@ result = value_if_true if condition else value_if_false
 This syntax is equivalent to the following if-else statement:
 ```python
 if condition:
-    result = value_if_true
+  result = value_if_true
 else:
-    result = value_if_false
+  result = value_if_false
 
 ```
 ## Conclusion

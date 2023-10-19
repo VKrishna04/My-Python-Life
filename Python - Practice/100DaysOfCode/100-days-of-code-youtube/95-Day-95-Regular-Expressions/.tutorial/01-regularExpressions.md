@@ -8,11 +8,11 @@ $   Matches the end
 .   Matches any character except newline
 ?   Matches zero or one occurrence.
 |   Means OR (Matches with any of the characters
-    separated by it.
+  separated by it.
 *   Any number of occurrences (including 0 occurrences)
 +   One or more occurrences
 {}  Indicate number of occurrences of a preceding RE 
-    to match.
+  to match.
 ()  Enclose a group of REs
 ```
 Find list of more meta characters here - https://www.ibm.com/docs/en/rational-clearquest/9.0.1?topic=tags-meta-characters-in-regular-expressions
@@ -36,9 +36,9 @@ text = "Hello, world!"
 match = re.search(pattern, text)
 
 if match:
-    print("Match found!")
+  print("Match found!")
 else:
-    print("Match not found.")
+  print("Match not found.")
 ```
 ## Searching for a pattern in re using re.findall() Method
 You can also use the `re.findall` function to find all occurrences of the pattern in a string:
@@ -86,8 +86,8 @@ pattern = r"\w+@\w+\.\w+"
 match = re.search(pattern, text)
 
 if match:
-    email = match.group()
-    print(email)
+  email = match.group()
+  print(email)
 # Output: example@example.com
 ```
 ## Conclusion
