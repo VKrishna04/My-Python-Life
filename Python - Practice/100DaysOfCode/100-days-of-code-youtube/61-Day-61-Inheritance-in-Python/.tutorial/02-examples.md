@@ -143,8 +143,8 @@ object.func1()
 object.func2()
 ```
 ### Output:
-```
+`
 This function is in school.
 This function is in student 1.
-````
+`
 ## [Next Lesson>>](https://replit.com/@codewithharry/62-Day-62-Access-Specifiers)

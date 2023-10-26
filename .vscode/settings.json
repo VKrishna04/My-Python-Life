@@ -49,4 +49,5 @@
         "Traceback",
         "unpad"
     ],
+    "python.analysis.autoImportCompletions": true,
 }
