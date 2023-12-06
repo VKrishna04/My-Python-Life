@@ -1,25 +1,49 @@
-# Bisection AAlgorithm in the form of a table has the following columns i.e. Iteration(k), a k-1, b k-1, midpoint t,
-# f(t) is the function value at midpoint t here f(t) has three values (>, <, =) 0
+#
+# * Bisection_Algorithm.py
+#
+# This script implements the Bisection Algorithm, a root-finding method that uses Bolzano's theorem and applies to any function that is continuous over the given interval for which one knows that there exists a zero.
+#
+# * Credits:
+# - GitHub: @VKrishna04
+#
+# * Versions:
+# - Python 3.12.0
+#
+# * Algorithm:
+# 1. Find two points, a and b, such that a < b and f(a) * f(b) < 0.
+# 2. Find the midpoint t of a and b.
+# 3. If f(t) = 0, t is the root of the function. Otherwise, proceed to the next step.
+# 4. Divide the interval [a, b]. If f(t)*f(a) < 0, a root exists between t and a. If f(t) *f (b) < 0, a root exists between t and b.
+# 5. Repeat steps 2-4 until f(t) = 0.
+# 6. Then announce that t is the root of the function.
+#
+# * Inputs:
+# - A continuous function f(x)
+# - Two points a and b such that a < b and f(a) * f(b) < 0
+# - Precision of the root
+# - Maximum number of iterations
+# - An option to turn off Scientific notation if it appears in the resulting table.
+#
+# * Outputs:
+# - The table of iterations, a, b, midpoint t, f(t)___0.
+# - The rows where each row represents a single iteration.
+# - If the max_Iteration is reached then terminate it directly otherwise continue.
+# - For any unknown reason of error causing the program to end will display this. -> "Unexpected exit condition."
+# - The root of the function within the interval [a, b].
 
-# For any continuous function f(x),
-
-# Find two points, say a and b such that a < b and f(a) * f(b) < 0
-# Find the midpoint of a and b, say “t”
-# t is the root of the given function if f(t) = 0; else follow the next step
-# Divide the interval [a, b] - If f(t)*f(a) <0, there exist a root between t and a
-# - else if f(t) *f (b) < 0, there exist a root between t and b
-# Repeat above three steps until f(t) = 0.
-
-import re
-import math
+from re import search
 
 
 def numOfSpace(formatted_string):
-    match = re.search(r"\t", formatted_string)
+    match = search(r"\t", formatted_string)  # search from re module.
     if match:
         return len(match.group())
     else:
         return 0
+
+
+def swap(lower, upper):
+    return upper, lower
 
 
 def format_number(num, precision):
@@ -62,7 +86,7 @@ def f(x):
     return eval(user_function)
 
 
-def bisection_method(a, b, precision, max_iterations, user_function, Rsci):
+def biSection_Method(user_function, a, b, precision, max_iterations, Rsci):
     iteration_width = max(len("S.No."), len(str(max_iterations)))
 
     char_count = numOfSpace(user_function)
@@ -75,11 +99,14 @@ def bisection_method(a, b, precision, max_iterations, user_function, Rsci):
     print(text)
     print("=" * char_count)
 
+    # Declaring and Initializing variables
     iteration = 0
     t = 0
     T = 0  # Declare T outside the loop
     tolerance = 10 ** (-(precision + 2))
 
+    # While loop for iterations and checking conditions to take another iteration.
+    # If failed will proceed with termination of the program.
     while (b - a) >= tolerance and iteration <= max_iterations:
         t = (a + b) / 2
         fm = f(t)
@@ -98,17 +125,22 @@ def bisection_method(a, b, precision, max_iterations, user_function, Rsci):
 
         # Removing Scientific Notation
         if Rsci == True:
-            text = f"| {iteration:<{iteration_width}} || {format_number(A, precision):<18} || {format_number(B, precision):<18} || {format_number(T, precision):<25} || {sign:<10} |"
-        else:
-            text = f"| {iteration:<{iteration_width}} || {A:<18} || {B:<18} || {T:<25} || {sign:<10} |"
+            A = int(format_number(A, precision))
+            B = int(format_number(B, precision))
+            T = int(format_number(T, precision))
+
+        text = f"| {iteration:<{iteration_width}} || {A:<18} || {B:<18} || {T:<25} || {sign:<10} |"
 
         print(text)
-        char_count = len(text)
         if abs(fm) < tolerance:
+            char_count = len(text)
             print("=" * char_count)
-            print(f"Root found at iteration {iteration}: {T}")
+            print(
+                f"Root found at iteration {iteration}: {tolerance} with {T} digits after decimal."
+            )
             break
 
+        # Main Step for changing the interval [a, b] to [t, b] or [a, t] based on the sign of f(t) and f(a)
         if f(a) * fm < 0:
             b = t
         else:
@@ -131,13 +163,22 @@ def bisection_method(a, b, precision, max_iterations, user_function, Rsci):
 # Get the user-provided function
 user_function = input("Enter the function f(x): ")
 user_function = prepare_expression(user_function)
+# Example Functions
+# x^4 -14*x^3 +60*x^2 - 70*x
+# x * sin(x) + cos(x)
 
 # Set initial interval [a, b], reference, and maximum iterations
-a = float(input("Enter the lower bound of the interval [a]: "))
-b = float(input("Enter the upper bound of the interval [b]: "))
+lower = float(input("Enter the lower bound of the interval [a]: "))
+upper = float(input("Enter the upper bound of the interval [b]: "))
+
+# Swap lower and upper if lower > upper
+if lower > upper:
+    lower, upper = swap(lower, upper)
 
 # Get the desired number of decimal places for the root
 precision = int(input("Enter the desired number of decimal places for the root: "))
+
+# Get the max number of iterations to perform if the goal is not reached
 max_iterations = int(input("Enter the maximum number of iterations: "))
 
 # Get the user's choice for removing scientific notation
@@ -148,5 +189,4 @@ else:
     Rsci = False
 
 # Call the function to apply the bisection method and create the table
-bisection_method(a, b, precision, max_iterations, user_function, Rsci)
-# x^4 -14*x^3 +60*x^2 - 70*x
+biSection_Method(user_function, lower, upper, precision, max_iterations, Rsci)
