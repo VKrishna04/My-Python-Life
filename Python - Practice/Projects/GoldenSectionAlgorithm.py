@@ -92,7 +92,7 @@ try:
         F1 = float(format_number(F1, precision))
         F2 = float(format_number(F2, precision))
         print(
-            f"| {iteration+1:<5} || {A:<18} || {B:<18} ||{X1:<18} ||  {X2:<18} || {F1:<18} || {F2:<18} ||     {sign:<4} |"
+            f"| {iteration+1:<5} || {A:<18} || {B:<18} || {X1:<18} || {X2:<18} || {F1:<18} || {F2:<18} ||     {sign:<4} |"
         )
         if f(x1) > f(x2):
             a = x1
@@ -116,7 +116,7 @@ try:
     print("=" * char_count)
 
     print(
-        f"The extremum is found in the interval {X1} to {X2}. With exit condition as '(b[{iteration}] - a[{iteration}]) < {epsilon}'\nThe extremum found in the interval {iteration+1}."
+        f"The extremum is found in the interval {X1} to {X2}. With exit condition as '(b[{iteration+1}] - a[{iteration+1}]) < {epsilon}'\nThe extremum found in the interval {iteration+1}."
     )
 except KeyboardInterrupt:
     print("\n\nExiting the Method Calculation...")

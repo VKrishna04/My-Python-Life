@@ -2,7 +2,6 @@
     "python.testing.pytestArgs": [
         ".",
         "test_*.py",
-        
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
@@ -12,7 +11,6 @@
         ".",
         "-p",
         "test_*.py",
-
     ],
     "C_Cpp.intelliSenseEngineFallback": "enabled",
     "python.analysis.typeCheckingMode": "basic",
@@ -29,6 +27,7 @@
         "hashlib",
         "ipython",
         "kernelspec",
+        "Mavo",
         "mblock",
         "mdecode",
         "mdecrypt",
@@ -40,6 +39,7 @@
         "nbconvert",
         "numpy",
         "ojas",
+        "Pugo",
         "pygments",
         "rstrip",
         "Sahu",
