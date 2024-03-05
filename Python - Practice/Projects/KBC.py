@@ -239,8 +239,11 @@ def KBC() -> None:
 		print("Congratulations on conquering the game and hope you have not cheated here you have earned Rs.",money)
 	else:
 		print("\n\nYou have lost in question no.",i+1,"by wrong answer or by running out of time")
-  	
+
 	print("Thank You for playing with us hope to see you again")
 	input()
 if __name__=="__main__":
 	KBC()
+ 
+ 
+r = input("Do you want to play again? (yes/no): ")
