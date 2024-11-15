@@ -6,7 +6,7 @@ message = input("Enter the attendance message:\n")
 # Prompt the user to specify if the provided roll numbers are absentees or presentees
 attendance_type = (
     input(
-        "Are the provided roll numbers absentees or presentees? (Enter 'A' for absentees or 'P' for presentees):\n"
+        "Are the providing roll numbers absentees or presentees? (Enter 'A' for absentees or 'P' for presentees):\n"
     )
     .strip()
     .upper()

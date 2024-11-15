@@ -1,0 +1,12 @@
+,support,itemsets
+0,0.8,frozenset({'Eggs'})
+1,1.0,frozenset({'Kidney Beans'})
+2,0.6,frozenset({'Milk'})
+3,0.6,frozenset({'Onion'})
+4,0.6,frozenset({'Yogurt'})
+5,0.8,"frozenset({'Eggs', 'Kidney Beans'})"
+6,0.6,"frozenset({'Onion', 'Eggs'})"
+7,0.6,"frozenset({'Kidney Beans', 'Milk'})"
+8,0.6,"frozenset({'Onion', 'Kidney Beans'})"
+9,0.6,"frozenset({'Yogurt', 'Kidney Beans'})"
+10,0.6,"frozenset({'Onion', 'Eggs', 'Kidney Beans'})"
